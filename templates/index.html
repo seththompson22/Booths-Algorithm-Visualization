@@ -1,0 +1,40 @@
+<!--  how to use css in python_ flask-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="../static/main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script>
+      alert("Page has been loaded successfully");
+    </script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>Booth's Algorithm Visualizer (4-bit)</h1>
+      <p>Integrating HTML, CSS and Javascript in Flask Web Framework</p>
+      <form action="{{ url_for('gtg')}}" method="post">
+        <label for="multiplicand">Multiplicand: </label>
+        <input
+          type="text"
+          id="multiplicand"
+          name="multiplicand"
+          ,
+          placeholder="EX. -5"
+        />
+        <label for="multiplier">Multiplier: </label>
+        <input
+          type="text"
+          id="multiplier"
+          name="multiplier"
+          ,
+          placeholder="EX. 7"
+        />
+        <button type="submit">Calculate</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
