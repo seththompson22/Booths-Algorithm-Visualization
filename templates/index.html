@@ -15,6 +15,7 @@
     <main>
       <h1>Booth's Algorithm Visualizer (4-bit)</h1>
       <p>Integrating HTML, CSS and Javascript in Flask Web Framework</p>
+      <p>Enter Only values between -7 and 7 (inclusive)</p>
       <form action="{{ url_for('gtg')}}" method="post">
         <label for="multiplicand">Multiplicand: </label>
         <input
@@ -34,6 +35,11 @@
         />
         <button type="submit">Calculate</button>
       </form>
+      <hr />
+      <section>
+        <h2>Legend</h2>
+        <p>A={}</p>
+      </section>
     </main>
     <footer></footer>
   </body>
