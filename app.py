@@ -17,7 +17,7 @@ def visualize_booth(decimal_multiplicand, decimal_multiplier):
     R=0
     n=4
     while (n>0):
-        if (A&0x1!= Aextra):
+        if (A&0x1!==Aextra):
             if (Aextra==0):
                 R=R-C
             else:
